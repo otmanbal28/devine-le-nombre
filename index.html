@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Devine le Nombre - V1</title>
+    <style>
+        .trop-grand, .trop-petit { color: red; }
+        .gagne { color: green; }
+    </style>
+</head>
+<body>
+    <h1>Devine le Nombre de 1 à 100</h1>
+    <input type="number" id="guessNb" placeholder="Entrez un nombre">
+    <button id="btnGuess">Deviner</button>
+    <button id="btnNewGame">Nouvelle partie</button>
+    
+    <p id="message"></p>
+    <p>Essais : <span id="counter">0</span></p>
+    <ul id="history"></ul>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
